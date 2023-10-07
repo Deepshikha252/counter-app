@@ -3,6 +3,7 @@ import {Todos} from "@/components/todos";
 import Navbar from "@/components/navbar";
 import "./globals.css";
 import { RiTodoLine } from "react-icons/ri";
+import Counter from "@/counter";
 // thapa technical SUBSCRIBE
 const Page = () => {
     return (
@@ -11,6 +12,7 @@ const Page = () => {
             <Navbar />
             <AddTodo />
             <Todos />
+            <Counter />
         </main>
     );
 };
